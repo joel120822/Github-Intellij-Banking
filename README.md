@@ -8,7 +8,7 @@ It performs basic banking operations like checking account details, crediting, a
 ## ✅ Features
 
 - Prompts user to **enter an Account ID**
-- If the ID is invalid, it keeps asking until the user provides a **valid ID**
+- If the ID is invalid, program stops running when the user provides a **valid ID**
 - Once a valid ID is entered, it provides the following menu:
 
   1. **Print account details** (Name and Balance)  
@@ -18,14 +18,13 @@ It performs basic banking operations like checking account details, crediting, a
 ---
 
 ## 💡 How It Works
-
 1. User enters an **account ID**
-2. If the ID is **invalid**, the program keeps prompting:
-   > _"Invalid ID, please enter a valid one:"_
+2. If the ID is **invalid**, the program stops running and it start from first
 3. Once a valid ID is entered, the following menu is shown:
     - `1` → Show account name and balance
     - `2` → Credit amount → Show updated balance
     - `3` → Debit amount → Show updated balance
+
 
 ---
 
